@@ -37,10 +37,8 @@ const Users = () => {
   };
   return (
     <View
-      style={[
-        styles.container,
-        {backgroundColor: mode == 'LIGHT' ? 'white' : '#212121'},
-      ]}>
+      style={
+        styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>RN Firebase Chat App</Text>
       </View>
