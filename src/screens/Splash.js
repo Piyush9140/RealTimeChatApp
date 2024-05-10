@@ -19,7 +19,7 @@ const Splash = () => {
   };
   return (
     <View style={styles.container}>
-      <Text style={styles.logo}>{'Firebase Chat\nApp'}</Text>
+      <Text style={styles.logo}>{'Chat App'}</Text>
     </View>
   );
 };
@@ -28,13 +28,14 @@ export default Splash;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'purple',
+    backgroundColor: '#93d9ff',
     justifyContent: 'center',
     alignItems: 'center',
   },
   logo: {
     fontSize: 40,
     color: 'white',
+    fontWeight:'500',
     textAlign: 'center',
   },
 });

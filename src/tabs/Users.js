@@ -40,7 +40,7 @@ const Users = () => {
       style={
         styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>RN Firebase Chat App</Text>
+        <Text style={styles.title}> User Chat </Text>
       </View>
       <FlatList
         data={users}
@@ -73,13 +73,13 @@ const styles = StyleSheet.create({
   header: {
     width: '100%',
     height: 60,
-    backgroundColor: 'white',
     elevation: 5,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor:'#93d9ff',
   },
   title: {
-    color: 'purple',
+    color: '#000000',
     fontSize: 20,
     fontWeight: '600',
   },

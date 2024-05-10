@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 50,
-    backgroundColor: 'purple',
+    backgroundColor: '#93d9ff',
   },
   btnText: {
     color: 'white',

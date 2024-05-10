@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     width: '100%',
     height: 70,
-    backgroundColor: 'purple',
+    backgroundColor: '#93d9ff',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     alignItems: 'center',
